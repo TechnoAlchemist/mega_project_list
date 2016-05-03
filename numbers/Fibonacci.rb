@@ -1,5 +1,5 @@
 def fibonacci_recursion(number)
-  if (number == 1 || number == 2)
+  if number == 1 || number == 2
     1
   else
     fibonacci_recursion(number - 1) + fibonacci_recursion(number - 2) 
